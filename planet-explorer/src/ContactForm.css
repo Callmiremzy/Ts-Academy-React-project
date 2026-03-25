@@ -74,3 +74,28 @@ small {
 .submit-btn:hover {
   background-color: #163a7a;
 }
+
+
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .contact-header{
+    text-align: center;
+  }
+  .contact-header p {
+    text-align: center; 
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+.contact-container {
+  margin: 10px;
+}
+.form-group textarea {
+  min-height: 120px;
+}
+}
