@@ -9,6 +9,9 @@ function App() {
       <PlanetVideo />
       <ContactForm />
     </div>
+    <>
+     <ContactForm />
+    </>    
   );
 }
 
