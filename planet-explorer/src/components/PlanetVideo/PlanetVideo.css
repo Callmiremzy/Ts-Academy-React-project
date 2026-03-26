@@ -1,0 +1,39 @@
+.planet-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left:60px;
+    margin-right: 60px;
+    background-color: #FFFFFF;
+
+}
+
+.video-container {
+    flex: 1;
+}
+
+video { 
+    width: 100%;
+    height: auto;
+    border-radius: 30px;     
+    max-width: 360px; 
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+
+.video-text {
+    flex: 1;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.video-text span {
+  color: #1274A4;
+}
+
+
+h2 {
+  color: #164BAF;
+}
