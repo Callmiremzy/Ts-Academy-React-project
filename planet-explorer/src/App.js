@@ -11,6 +11,9 @@ function App() {
       <PlanetTable />
       <ContactForm />
     </div>
+    <>
+     <ContactForm />
+    </>    
   );
 }
 

@@ -33,7 +33,7 @@ const ContactForm = () => {
       <form onSubmit={handleSubmit} className="form">
         <div className="row">
           <div className="form-group">
-            <label>Full Name *</label>
+            <label>Full Name <span>*</span></label>
             <input
               type="text"
               name="fullName"
@@ -45,7 +45,7 @@ const ContactForm = () => {
           </div>
 
           <div className="form-group">
-            <label>Email *</label>
+            <label>Email <span>*</span></label>
             <input
               type="email"
               name="email"
@@ -59,7 +59,7 @@ const ContactForm = () => {
 
         <div className="row">
           <div className="form-group">
-            <label>Phone Number *</label>
+            <label>Phone Number <span>*</span></label>
             <input
               type="tel"
               name="phone"
@@ -71,7 +71,7 @@ const ContactForm = () => {
           </div>
 
           <div className="form-group">
-            <label>Message *</label>
+            <label>Message <span>*</span></label>
             <textarea
               name="message"
               placeholder="Enter your message"
@@ -80,7 +80,7 @@ const ContactForm = () => {
               onChange={handleChange}
               required
             />
-            <small>{formData.message.length} / 100 characters</small>
+            <small>100 characters</small>
           </div>
         </div>
 
