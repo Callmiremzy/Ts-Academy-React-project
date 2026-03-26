@@ -11,15 +11,8 @@ function App() {
       <hr />
 
       <div className="copyright">
-        <p>
-          ©2026 Design by Isaac A. 
-          <br className="first_br" />
-          Built by GroupName. 
-          <br className="second_br" />
-          All rights reserved
-        </p>
-
-        <p className="tsa">TSAcademy</p>
+        <p>©2026 Design by <a href=""> Amaka </a>&<a href=""> Ifeoma A.</a><br className="first_br"/>Built by <a href="">React Nexus.</a><br className="second_br"/> All rights reserved</p>
+        <a href="https://tsacademyonline.com"><p className="tsa">TSAcademy</p></a>
       </div>
     </footer>
   );
