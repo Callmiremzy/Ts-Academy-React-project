@@ -24,11 +24,13 @@ const ContactForm = () => {
 
   return (
     <div className="contact-container">
-      <h2>Have Questions About Planetary Science?</h2>
+     <div className="contact-header">
+       <h2>Have Questions About Planetary Science?</h2>
       <p>
         Interested in learning more about space, astronomy, or how planetary
-        data is collected and analyzed?<br/> Reach out and we’ll get back to you.
+        data is collected and analyzed? Reach out and we’ll get back to you.
       </p>
+     </div>
 
       <form onSubmit={handleSubmit} className="form">
         <div className="row">
