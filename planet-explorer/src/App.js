@@ -10,10 +10,7 @@ function App() {
       <PlanetVideo />
       <PlanetTable />
       <ContactForm />
-    </div>
-    <>
-     <ContactForm />
-    </>    
+    </div>  
   );
 }
 
