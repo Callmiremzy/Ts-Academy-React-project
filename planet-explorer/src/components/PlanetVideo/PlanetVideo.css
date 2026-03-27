@@ -5,13 +5,9 @@
     gap: 10px; 
     padding: 0 40px; 
     max-width: 1100px; 
-    margin: 0 auto;
-    background-color: #FFFFFF;
-    gap: 10px;
     margin-left:60px;
     margin-right: 60px;
     background-color: #FFFFFF;
-
 }
 
 .video-container {
@@ -25,13 +21,8 @@ video {
     border-radius: 30px;     
     object-fit: cover;
     aspect-ratio: 1 / 1;
-    margin-top: 20px;
-    border-radius: 30px;     
-    max-width: 360px; 
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
+    margin-top: 25px;
 }
-
 
 .video-text {
     flex: 1;
@@ -43,13 +34,7 @@ video {
 
 .video-text span {
   color: #1274A4;
-} */
-}
-
-.video-text span {
-  color: #1274A4;
-}
-
+} 
 
 h2 {
   color: #164BAF;
