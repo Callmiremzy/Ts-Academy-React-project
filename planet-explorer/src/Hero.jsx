@@ -10,8 +10,9 @@ return (
 <a href="/">
 <img
 src="https://res.cloudinary.com/dzzl28aef/image/upload/v1770490245/planet_jhyuzs.png"
-width="80"
-height="50"
+width="auto"
+height="50px"
+margin-top="20px"
 alt="logo"
 />
 </a>
@@ -33,15 +34,10 @@ From size and mass to gravity and density, this page breaks down
 the solar system in a clear, data-driven way.
 </p>
 
-<div className="button">
-<button className="btn btn-primary">
-Explore the Data
-</button>
-
-<button className="btn btn-secondary">
-Contact Us
-</button>
-</div>
+  <div class="hero-buttons">
+    <a href="#" class="btn primary">Explore the Data</a>
+    <a href="#" class="btn secondary">Contact Us</a>
+ </div>
 </div>
 
 <div className="header-image">

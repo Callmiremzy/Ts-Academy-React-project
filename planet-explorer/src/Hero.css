@@ -11,12 +11,12 @@ line-height: 1.6;
 
 /* Header */
 .ader {
-background-color: #03113f;
+background-color: #051540;
 }
 
 .navbar {
 width: 100%;
-max-width: 1100px;
+max-width: 1350px;
 margin: 0 auto;
 padding: 14px 20px;
 }
@@ -27,15 +27,16 @@ display: flex;
 color: white;
 min-height: 75vh;
 align-items: center;
-background: linear-gradient(135deg, #020617, #0a1f44);
+background-color: #051540;
 padding-bottom: 50px;
 }
 
 .header {
 display: flex;
-max-width: 1200px;
+max-width: 1300px;
 margin: 0 auto;
 align-items: center;
+width: 100%;
 justify-content: space-between;
 }
 
@@ -45,13 +46,20 @@ max-width: 500px;
 }
 
 .header-content h1 {
-letter-spacing: 1px;
-font-size: 40px;
+font-size: 48px;
+margin-bottom: 20px;
+font-weight: 700;
+width: 549px;
 }
 
 .p {
-margin-top: 10px;
+margin-bottom: 50px;
 letter-spacing: 1px;
+font-weight: 500;
+font-size: 18px;
+color: #dddddd;
+width: 549px;
+
 }
 
 /* Image */
@@ -63,7 +71,7 @@ justify-content: flex-end;
 
 .header-image img {
 width: 100%;
-max-width: 450px;
+max-width: 644px;
 filter: drop-shadow(0 0 40px rgba(0, 100, 255, 0.6));
 animation: float 6s ease-in-out infinite;
 }
@@ -76,28 +84,35 @@ animation: float 6s ease-in-out infinite;
 }
 
 /* Buttons */
-.button {
-display: flex;
-gap: 10px;
-margin-top: 20px;
+.hero-buttons {
+  display: flex;
+  gap: 16px;
 }
 
 .btn {
-padding: 12px 25px;
-text-decoration: none;
-border-radius: 5px;
-font-weight: bold;
+  padding: 12px 22px;
+  font-size: 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
 }
 
-.btn-primary {
-background: #1e49af;
-color: white;
+.btn.primary {
+  background-color: #1d4ed8;
+  color: #ffffff;
 }
 
-.btn-secondary {
-    background-color:transparent ;
-border: 1px solid  white;
-color: white;
+.btn.primary:hover {
+  background-color: #2563eb;
+}
+
+.btn.secondary {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Mobile */
@@ -106,17 +121,33 @@ color: white;
 flex-direction: column-reverse;
 text-align: center;
 }
+.navbar {
+ padding: 0 24px;
+text-align: center;
+}
+.navbar img {
+ height: 50px;
+ margin-top: 16px;
+}
 
 .header-content {
 margin-top: 30px;
+
 }
 
 .header-content h1 {
-font-size: 25px;
+font-size: 30px;
+width: 325px;
 }
 
 .p {
 padding: 10px;
+width: 302px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+margin-bottom: 20px;
+
 }
 
 .header-image img {
@@ -124,8 +155,9 @@ max-width: 300px;
 margin: 0 auto;
 }
 
-.button {
-flex-direction: column;
+.hero-buttons {
+flex-direction: row;
+justify-content: center;
 align-items: center;
 }
 }
