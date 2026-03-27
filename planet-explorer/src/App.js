@@ -2,14 +2,13 @@
 import './App.css';
 import PlanetVideo from './components/PlanetVideo/PlanetVideo';
 import ContactForm from './ContactForm';  
+import Hero from './Hero';
 
 function App() {
   return (
-    <div className="App">
-      <PlanetVideo />
-      <ContactForm />
-    </div>
     <>
+      <Hero />
+     <PlanetVideo />
      <ContactForm />
     </>    
   );
