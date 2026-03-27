@@ -41,8 +41,9 @@ table, th, td {
     padding: 10px;
 }
 
-span {
+td span {
     font-weight: bold;
+    color: #212121;
 }
 
 th {

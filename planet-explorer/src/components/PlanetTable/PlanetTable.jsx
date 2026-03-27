@@ -16,7 +16,7 @@
                             <th>Mass (10 24kg)</th>
                             <th>Diameter (km)</th>
                             <th>Density (kg/m3)</th>
-                            <th>Gravity(m/s2)</th>
+                            <th>Gravity (m/s2)</th>
                         </tr>
                     </thead>
                     <tbody>
