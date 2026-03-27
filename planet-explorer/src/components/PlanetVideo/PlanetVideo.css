@@ -2,11 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 10px; 
+    padding: 0 40px; 
+    max-width: 1100px; 
     margin-left:60px;
     margin-right: 60px;
     background-color: #FFFFFF;
-
 }
 
 .video-container {
@@ -16,24 +17,45 @@
 video { 
     width: 100%;
     height: auto;
+    max-width: 400px;
     border-radius: 30px;     
-    max-width: 360px; 
     object-fit: cover;
     aspect-ratio: 1 / 1;
+    margin-top: 25px;
 }
-
 
 .video-text {
     flex: 1;
     text-align: center;
     font-family: "Inter", sans-serif;
-}
+    width: 100%;
+    max-width: 470px;
+} 
 
 .video-text span {
   color: #1274A4;
-}
-
+} 
 
 h2 {
   color: #164BAF;
 }
+
+
+@media (max-width: 768px) {
+  .planet-video {
+    flex-direction: column;
+  }
+
+  .video, .text {
+    width: 100%;
+  }
+  .video-text {
+    order: 1; 
+    text-align: center;
+  }
+
+  .video-container {
+    order: 2; 
+  }
+}
+
