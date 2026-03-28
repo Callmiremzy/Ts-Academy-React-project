@@ -8,9 +8,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     /* gap: 10px;  */
     margin: 60px;
     width: 1440px; 
+
+    gap: 10px; 
+    padding: 30px; 
+    max-width: 1100px; 
+    margin-left:60px;
+    margin-right: 60px;
     background-color: #FFFFFF;
 }
 .planet-video-content {
@@ -67,6 +74,7 @@ h2 {
 @media (max-width: 768px) {
   .planet-video {
     flex-direction: column;
+
     width: auto;
   }
 
@@ -75,6 +83,14 @@ h2 {
     gap: 20px;
     align-items: center;
     width: 327px;
+
+    margin: 20px;
+    padding:20px;
+  }
+
+  .video, .text {
+    width: 95%;
+
   }
 
   /* Move text above video */

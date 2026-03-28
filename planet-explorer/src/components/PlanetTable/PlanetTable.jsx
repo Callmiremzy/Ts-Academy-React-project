@@ -2,6 +2,7 @@
 
  function PlanetTable() {
     return (
+
         <section class="facts-section">
       <div class="facts-container">
         <h2>Planetary Facts at a Glance</h2>
@@ -110,7 +111,7 @@
         </div>
       </div>
     </section>
-
+       
     );
 }
 
