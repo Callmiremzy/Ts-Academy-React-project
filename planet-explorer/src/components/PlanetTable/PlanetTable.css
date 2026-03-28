@@ -18,7 +18,7 @@ table {
     background-color: #F2F7FF;
     width: 100%;
     height: auto;
-    max-width: 1120px; 
+    max-width: 1100px; 
     color: #212121;
     text-align: center;
     border: 2px solid #FFFFFF;
@@ -68,3 +68,6 @@ caption {
         display: none;
   }
 }
+
+
+ 
