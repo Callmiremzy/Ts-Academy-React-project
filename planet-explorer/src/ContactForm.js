@@ -23,7 +23,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-container">
+    <section id="form">
+       <div className="contact-container">
      <div className="contact-header">
        <h2>Have Questions About Planetary Science?</h2>
       <p>
@@ -91,6 +92,7 @@ const ContactForm = () => {
         </button>
       </form>
     </div>
+      </section>
   );
 };
 
