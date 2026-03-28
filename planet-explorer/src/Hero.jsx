@@ -35,8 +35,8 @@ the solar system in a clear, data-driven way.
 </p>
 
   <div class="hero-buttons">
-    <a href="#" class="btn primary">Explore the Data</a>
-    <a href="#" class="btn secondary">Contact Us</a>
+    <a href="#planet-data" class="btn primary">Explore the Data</a>
+    <a href="#form" class="btn secondary">Contact Us</a>
  </div>
 </div>
 
