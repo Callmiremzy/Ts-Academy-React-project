@@ -1,0 +1,163 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.6;
+}
+
+/* Header */
+.ader {
+background-color: #051540;
+}
+
+.navbar {
+width: 100%;
+max-width: 1350px;
+margin: 0 auto;
+padding: 14px 20px;
+}
+
+/* Hero Section */
+.head {
+display: flex;
+color: white;
+min-height: 75vh;
+align-items: center;
+background-color: #051540;
+padding-bottom: 50px;
+}
+
+.header {
+display: flex;
+max-width: 1300px;
+margin: 0 auto;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+}
+
+.header-content {
+flex: 1;
+max-width: 500px;
+}
+
+.header-content h1 {
+font-size: 48px;
+margin-bottom: 20px;
+font-weight: 700;
+width: 549px;
+}
+
+.p {
+margin-bottom: 50px;
+letter-spacing: 1px;
+font-weight: 500;
+font-size: 18px;
+color: #dddddd;
+width: 549px;
+
+}
+
+/* Image */
+.header-image {
+flex: 1;
+display: flex;
+justify-content: flex-end;
+}
+
+.header-image img {
+width: 100%;
+max-width: 644px;
+filter: drop-shadow(0 0 40px rgba(0, 100, 255, 0.6));
+animation: float 6s ease-in-out infinite;
+}
+
+/* Animation */
+@keyframes float {
+0% { transform: translateY(0px); }
+50% { transform: translateY(-10px); }
+100% { transform: translateY(0px); }
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 12px 22px;
+  font-size: 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn.primary {
+  background-color: #1d4ed8;
+  color: #ffffff;
+}
+
+.btn.primary:hover {
+  background-color: #2563eb;
+}
+
+.btn.secondary {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+.header {
+flex-direction: column-reverse;
+text-align: center;
+}
+.navbar {
+ padding: 0 24px;
+text-align: center;
+}
+.navbar img {
+ height: 50px;
+ margin-top: 16px;
+}
+
+.header-content {
+margin-top: 30px;
+
+}
+
+.header-content h1 {
+font-size: 30px;
+width: 325px;
+}
+
+.p {
+padding: 10px;
+width: 302px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+margin-bottom: 20px;
+
+}
+
+.header-image img {
+max-width: 300px;
+margin: 0 auto;
+}
+
+.hero-buttons {
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+}

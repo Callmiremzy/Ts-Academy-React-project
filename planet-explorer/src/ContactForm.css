@@ -1,3 +1,8 @@
+.contact-section {
+  background-color: #ffff;
+    padding: 80px 24px;
+}
+
 .contact-container {
   margin: 50px;
   padding: 20px;
@@ -92,8 +97,14 @@ small {
   .submit-btn {
     width: 100%;
   }
+.contact-section {
+  padding: 0;
+  /* margin: 1px; */
+  width: 100%;
+}
 .contact-container {
-  margin: 10px;
+  margin: 0;
+  padding: 20px;
 }
 .form-group textarea {
   min-height: 120px;

@@ -1,0 +1,94 @@
+.facts-section {
+  padding: 80px 24px;
+  background: #ffffff;
+}
+
+.facts-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+.facts-container h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #164baf;
+  margin-bottom: 12px;
+}
+
+.facts-container .intro {
+  max-width: 720px;
+  color: #0f2a44;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.facts-container .note {
+  font-size: 18px;
+  color: #0f2a44;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 16px;
+}
+.facts-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 1;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.facts-table th {
+  background: #1e4fbf;
+  color: #ffffff;
+  padding: 14px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.facts-table td {
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #212121;
+  background: #f3f8ff;
+  border-top: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+.facts-table .group {
+  background: #dbeafe;
+  font-weight: 700;
+  font-size: 16px;
+  color: #212121;
+}
+
+.facts-table .subgroup {
+  background: #dbeafe;
+  font-weight: 700;
+  font-size: 16px;
+  color: #212121;
+}
+.facts-table thead th:first-child {
+  border-top-left-radius: 16px;
+}
+
+.facts-table thead th:last-child {
+  border-top-right-radius: 16px;
+}
+
+
+@media (max-width: 768px) {
+.facts-section {
+    display: none;
+}
+    
+}
+
+
+ 
