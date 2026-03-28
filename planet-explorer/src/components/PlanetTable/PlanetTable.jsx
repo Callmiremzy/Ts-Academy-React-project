@@ -3,7 +3,7 @@
  function PlanetTable() {
     return (
 
-        <section class="facts-section">
+         <section class="facts-section">
       <div class="facts-container">
         <h2>Planetary Facts at a Glance</h2>
         <p class="intro">
@@ -31,7 +31,6 @@
             </thead>
 
             <tbody>
-                
               <tr>
                 <td class="group" colspan="2" rowspan="4">
                   Terrestrial Planets
@@ -64,7 +63,6 @@
                 <td>3.7</td>
               </tr>
 
-              
               <tr>
                 <td class="group" rowspan="4">Jovian Planets</td>
                 <td class="subgroup" rowspan="2">Gas Giants</td>
@@ -111,7 +109,6 @@
         </div>
       </div>
     </section>
-       
     );
 }
 
