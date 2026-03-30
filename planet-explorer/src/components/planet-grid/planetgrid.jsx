@@ -3,60 +3,16 @@ import "./planetgrid.css";
 
 // Planet data with external images
 const planetsData = [
-  {
-    name: "Mercury",
-    distanceFromSun: "57.9 million km",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2V_OYPfyKxa1UgMs_pGJRnhtvXkGENpKwZA&s",
-  },
-  {
-    name: "Venus",
-    distanceFromSun: "108.2 million km",
-    image:
-      "https://res.cloudinary.com/dzzl28aef/image/upload/v1770214899/venus_rwinx8.png",
-  },
-  {
-    name: "Earth",
-    distanceFromSun: "149.6 million km",
-    image:
-      "https://res.cloudinary.com/dzzl28aef/image/upload/v1770212389/earth_fudrrb.png",
-  },
-  {
-    name: "Mars",
-    distanceFromSun: "227.9 million km",
-    image:
-      "https://res.cloudinary.com/dzzl28aef/image/upload/v1770212377/mars_h141j5.png",
-  },
-  {
-    name: "Jupiter",
-    distanceFromSun: "778.6 million km",
-    image:
-      "https://res.cloudinary.com/dzzl28aef/image/upload/v1770212356/Jupiter_ehb8m6.png",
-  },
-  {
-    name: "Saturn",
-    distanceFromSun: "1433.5 million km",
-    image:
-      "https://res.cloudinary.com/dzzl28aef/image/upload/v1770212348/Saturn_qdund0.png",
-  },
-  {
-    name: "Uranus",
-    distanceFromSun: "2872.5 million km",
-    image:
-      "https://res.cloudinary.com/dzzl28aef/image/upload/v1770212358/uranus_w4pg28.png",
-  },
-  {
-    name: "Neptune",
-    distanceFromSun: "4495.1 million km",
-    image:
-      "https://res.cloudinary.com/dzzl28aef/image/upload/v1770212351/nenptune_iryneu.png",
-  },
-  {
-    name: "Pluto",
-    distanceFromSun: "5906.4 million km",
-    image:
-      "https://res.cloudinary.com/dzzl28aef/image/upload/v1770212351/nenptune_iryneu.png",
-  },
+    { name: "Mercury", distanceFromSun: "57.9 million km", image: "/image/images.jpg" },
+  { name: "Venus", distanceFromSun: "108.2 million km", image: "/image/venus.png" },
+  { name: "Earth", distanceFromSun: "149.6 million km", image: "/image/earth_fudrrb.png" },
+  { name: "Mars", distanceFromSun: "227.9 million km", image: "/image/mars_h141j5.png" },
+  { name: "Jupiter", distanceFromSun: "778.6 million km", image: "/image/jupiter_ehb8m6.png" },
+  { name: "Saturn", distanceFromSun: "1433.5 million km", image: "/image/saturn_qdund0.png" },
+  { name: "Uranus", distanceFromSun: "2872.5 million km", image: "/image/uranus_w4pg28.png" },
+  { name: "Neptune", distanceFromSun: "4495.1 million km", image: "/image/nenptune_iryneu.png" },
+  { name: "Pluto", distanceFromSun: "5906.4 million km", image: "/image/nenptune_iryneu.png" },
+
 ];
 
 const PlanetGrid = () => {
