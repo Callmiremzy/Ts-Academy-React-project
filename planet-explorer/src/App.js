@@ -5,14 +5,14 @@ import PlanetTable from './components/PlanetTable/PlanetTable';
 import ContactForm from './components/contact-form/ContactForm';  
 import Hero from './components/hero-section/Hero';
 import Footer from './components/footer-folder/footer';
-import VisualizationSection from './components/planet-grid/planetgrid';
+import PlanetGrid from './components/planet-grid/planetgrid';
 
 function App() {
   return (
     <>
       <Hero />
      <PlanetVideo />
-     <VisualizationSection /> 
+     <PlanetGrid />
      <PlanetTable />
      <ContactForm />
       <Footer />
