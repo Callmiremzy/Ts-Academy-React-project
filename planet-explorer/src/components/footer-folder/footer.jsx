@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="about">
         <h3>About</h3>
-        <p>Isaac</p>
+        <p>Isaac, Benson, Happiness, Olamide, Glory, Agbaje, Esther, Chris, Chubiyo, Emmanuel, Emem</p>
       </div>
 
       <hr />
