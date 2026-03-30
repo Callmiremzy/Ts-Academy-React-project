@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./planetgrid.css";
 
-// Planet data with external images
+// Planet data using public folder images
 const planetsData = [
+ 
     { name: "Mercury", distanceFromSun: "57.9 million km", image: "/image/images.jpg" },
   { name: "Venus", distanceFromSun: "108.2 million km", image: "/image/venus.png" },
   { name: "Earth", distanceFromSun: "149.6 million km", image: "/image/earth_fudrrb.png" },
@@ -50,19 +51,14 @@ const PlanetGrid = () => {
         {/* Planet Grid */}
         <div className="planet-grid">
           {visiblePlanets.map((planet, index) => (
-            <div
-              className={`planet-card ${
-                planet.name === "Pluto" ? "pluto" : ""
-              }`}
-              key={index}
-            >
+            <div className={`planet-card ${planet.name === "Pluto" ? "pluto" : ""}`} key={index}>
               <img
                 src={planet.image}
                 alt={planet.name}
                 loading="lazy"
                 onLoad={(e) => e.target.classList.add("loaded")}
                 onError={(e) => {
-                  e.target.src = "https://via.placeholder.com/150";
+                  e.target.src = "/images/placeholder.png"; // fallback if missing
                   e.target.classList.add("loaded");
                 }}
               />
