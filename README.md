@@ -5,7 +5,7 @@ This project is a React-based web application that displays detailed information
 
 The application is built using a modular, component-based architecture, making it scalable, reusable, and easy to maintain. It uses the Fetch API to handle asynchronous data and updates the UI dynamically in real time.
 
-The project also demonstrates:
+The project also demonstrates: 
 
 Responsive design for mobile and desktop 📱💻
 Team collaboration using Git (branching, commits, pull requests)
